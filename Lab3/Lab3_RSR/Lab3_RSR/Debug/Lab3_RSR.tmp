@@ -1,0 +1,31 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab3\Lab3_RSR\Lab3_RSR\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab3\Lab3_RSR\Lab3_RSR\Lab3_RSR.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab3\Lab3_RSR\Lab3_RSR\Debug/Lab3_RSR.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab3_RSR.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab3_RSR.map</FILE>
+  <FILE>Lab3_RSR.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab3\Lab3_RSR\Lab3_RSR\Lab3_RSR.asm</FILE><LINE>24</LINE></MAIN>
+  <LOOP><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab3\Lab3_RSR\Lab3_RSR\Lab3_RSR.asm</FILE><LINE>79</LINE></LOOP>
+  <NEXT><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab3\Lab3_RSR\Lab3_RSR\Lab3_RSR.asm</FILE><LINE>84</LINE></NEXT>
+  <WASTE><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab3\Lab3_RSR\Lab3_RSR\Lab3_RSR.asm</FILE><LINE>98</LINE></WASTE>
+  <EXTRA><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab3\Lab3_RSR\Lab3_RSR\Lab3_RSR.asm</FILE><LINE>101</LINE></EXTRA>
+  <DELAY_10ms><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab3\Lab3_RSR\Lab3_RSR\Lab3_RSR.asm</FILE><LINE>106</LINE></DELAY_10ms>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\delay_37\delay_37\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\delay_37\delay_37\delay_37.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\delay_37\delay_37\Debug/delay_37.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>delay_37.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>delay_37.map</FILE>
+  <FILE>delay_37.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\delay_37\delay_37\delay_37.asm</FILE><LINE>28</LINE></MAIN>
+  <ON><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\delay_37\delay_37\delay_37.asm</FILE><LINE>32</LINE></ON>
+  <LOOP><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\delay_37\delay_37\delay_37.asm</FILE><LINE>38</LINE></LOOP>
+  <DELAY_10ms><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\delay_37\delay_37\delay_37.asm</FILE><LINE>45</LINE></DELAY_10ms>
+  <OFF><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\delay_37\delay_37\delay_37.asm</FILE><LINE>85</LINE></OFF>
+ </LABELS>
+</ASSEMBLER_INFO>

@@ -1,0 +1,39 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\ATxmega128A1Udef.inc</FILE>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\Atxmega128A1udef.inc</FILE>
+  <FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\EBI_STUFF.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\Debug/test.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>test.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>test.map</FILE>
+  <FILE>test.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <main><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>29</LINE></main>
+  <jumphere><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>36</LINE></jumphere>
+  <LCD_BF_WAIT><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>90</LINE></LCD_BF_WAIT>
+  <OUT_STRING_LCD><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>74</LINE></OUT_STRING_LCD>
+  <done><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>64</LINE></done>
+  <OUT_CHAR_LCD><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>67</LINE></OUT_CHAR_LCD>
+  <stringloop><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>77</LINE></stringloop>
+  <string_done><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>86</LINE></string_done>
+  <AGAIN><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>106</LINE></AGAIN>
+  <CARRY><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>131</LINE></CARRY>
+  <BACK><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>126</LINE></BACK>
+  <RETURN><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab6\test\test\test\test.asm</FILE><LINE>135</LINE></RETURN>
+ </LABELS>
+</ASSEMBLER_INFO>

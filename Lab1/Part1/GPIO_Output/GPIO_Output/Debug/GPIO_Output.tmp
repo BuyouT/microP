@@ -1,0 +1,27 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab1\Part1\GPIO_Output\GPIO_Output\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab1\Part1\GPIO_Output\GPIO_Output\GPIO_Output.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab1\Part1\GPIO_Output\GPIO_Output\Debug/GPIO_Output.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>GPIO_Output.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>GPIO_Output.map</FILE>
+  <FILE>GPIO_Output.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab1\Part1\GPIO_Output\GPIO_Output\GPIO_Output.asm</FILE><LINE>31</LINE></MAIN>
+  <LOOP><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab1\Part1\GPIO_Output\GPIO_Output\GPIO_Output.asm</FILE><LINE>61</LINE></LOOP>
+ </LABELS>
+</ASSEMBLER_INFO>

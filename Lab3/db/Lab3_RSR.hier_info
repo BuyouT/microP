@@ -1,0 +1,9 @@
+|Lab3_RSR
+OE_L <= inst.DB_MAX_OUTPUT_PORT_TYPE
+CS0 => inst.IN0
+CS0 => inst6.IN1
+RE_L => inst.IN1
+CLK <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+WE_L => inst6.IN0
+
+

@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\ATxmega128A1Udef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Debug/Lab2_C_RSR.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab2_C_RSR.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab2_C_RSR.map</FILE>
+  <FILE>Lab2_C_RSR.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>22</LINE></MAIN>
+  <KITT1><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>31</LINE></KITT1>
+  <KITT2><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>107</LINE></KITT2>
+  <LOOP1><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>36</LINE></LOOP1>
+  <EXTRA1><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>38</LINE></EXTRA1>
+  <DELAY_10ms1><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>43</LINE></DELAY_10ms1>
+  <CONT1><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>83</LINE></CONT1>
+  <NEXT1><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>90</LINE></NEXT1>
+  <LOOP2><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>114</LINE></LOOP2>
+  <EXTRA2><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>119</LINE></EXTRA2>
+  <DELAY_10ms2><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>124</LINE></DELAY_10ms2>
+  <CONT2><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>164</LINE></CONT2>
+  <NEXT2><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab2\PartC\Lab2_C_RSR\Lab2_C_RSR\Lab2_C_RSR.asm</FILE><LINE>171</LINE></NEXT2>
+ </LABELS>
+</ASSEMBLER_INFO>

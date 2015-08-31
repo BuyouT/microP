@@ -1,0 +1,20 @@
+|Lab4_B_RSR
+CE_L <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+CS1 => inst18.IN0
+A15 => inst6.IN0
+A15 => inst4.IN0
+A14 => inst9.IN0
+A14 => inst1.IN0
+A14 => inst2.IN0
+A12 => inst8.IN0
+A12 => inst.IN2
+A13 => inst8.IN1
+A13 => inst.IN1
+OE_L <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+CS0 => inst17.IN0
+CS0 => inst10.IN1
+RE_L => inst17.IN1
+CLK <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+WE_L => inst10.IN0
+
+

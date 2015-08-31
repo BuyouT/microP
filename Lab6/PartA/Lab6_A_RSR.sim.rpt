@@ -1,0 +1,199 @@
+Simulator report for Lab6_A_RSR
+Sun Jul 12 16:54:22 2015
+Quartus II Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 24 nodes     ;
+; Simulation Coverage         ;      66.67 % ;
+; Total Number of Transitions ; 643          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; MAX3000A     ;
++-----------------------------+--------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                          ;
++--------------------------------------------------------------------------------------------+----------------+---------------+
+; Option                                                                                     ; Setting        ; Default Value ;
++--------------------------------------------------------------------------------------------+----------------+---------------+
+; Simulation mode                                                                            ; Functional     ; Timing        ;
+; Start time                                                                                 ; 0 ns           ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF           ;               ;
+; Vector input source                                                                        ; Lab6_A_RSR.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On             ; On            ;
+; Check outputs                                                                              ; Off            ; Off           ;
+; Report simulation coverage                                                                 ; On             ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On             ; On            ;
+; Display missing 1-value coverage report                                                    ; On             ; On            ;
+; Display missing 0-value coverage report                                                    ; On             ; On            ;
+; Detect setup and hold time violations                                                      ; Off            ; Off           ;
+; Detect glitches                                                                            ; Off            ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off            ; Off           ;
+; Generate Signal Activity File                                                              ; Off            ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off            ; Off           ;
+; Group bus channels in simulation results                                                   ; Off            ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On             ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE     ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off            ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; On             ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto           ; Auto          ;
++--------------------------------------------------------------------------------------------+----------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      66.67 % ;
+; Total nodes checked                                 ; 24           ;
+; Total output ports checked                          ; 24           ;
+; Total output ports with complete 1/0-value coverage ; 16           ;
+; Total output ports with no 1/0-value coverage       ; 8            ;
+; Total output ports with no 1-value coverage         ; 8            ;
+; Total output ports with no 0-value coverage         ; 8            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                  ;
++---------------------+---------------------+------------------+
+; Node Name           ; Output Port Name    ; Output Port Type ;
++---------------------+---------------------+------------------+
+; |Lab6_A_RSR|CE_L    ; |Lab6_A_RSR|CE_L    ; pin_out          ;
+; |Lab6_A_RSR|inst18  ; |Lab6_A_RSR|inst18  ; out0             ;
+; |Lab6_A_RSR|inst16  ; |Lab6_A_RSR|inst16  ; out0             ;
+; |Lab6_A_RSR|inst7   ; |Lab6_A_RSR|inst7   ; out0             ;
+; |Lab6_A_RSR|inst6   ; |Lab6_A_RSR|inst6   ; out0             ;
+; |Lab6_A_RSR|A15     ; |Lab6_A_RSR|A15     ; out              ;
+; |Lab6_A_RSR|A14     ; |Lab6_A_RSR|A14     ; out              ;
+; |Lab6_A_RSR|inst8   ; |Lab6_A_RSR|inst8   ; out0             ;
+; |Lab6_A_RSR|A12     ; |Lab6_A_RSR|A12     ; out              ;
+; |Lab6_A_RSR|A13     ; |Lab6_A_RSR|A13     ; out              ;
+; |Lab6_A_RSR|inst3   ; |Lab6_A_RSR|inst3   ; out0             ;
+; |Lab6_A_RSR|inst1   ; |Lab6_A_RSR|inst1   ; out0             ;
+; |Lab6_A_RSR|inst    ; |Lab6_A_RSR|inst    ; out0             ;
+; |Lab6_A_RSR|CELCD_L ; |Lab6_A_RSR|CELCD_L ; pin_out          ;
+; |Lab6_A_RSR|inst12  ; |Lab6_A_RSR|inst12  ; out0             ;
+; |Lab6_A_RSR|inst13  ; |Lab6_A_RSR|inst13  ; out0             ;
++---------------------+---------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------+
+; Missing 1-Value Coverage                                   ;
++--------------------+--------------------+------------------+
+; Node Name          ; Output Port Name   ; Output Port Type ;
++--------------------+--------------------+------------------+
+; |Lab6_A_RSR|CS1    ; |Lab6_A_RSR|CS1    ; out              ;
+; |Lab6_A_RSR|OE_L   ; |Lab6_A_RSR|OE_L   ; pin_out          ;
+; |Lab6_A_RSR|inst17 ; |Lab6_A_RSR|inst17 ; out0             ;
+; |Lab6_A_RSR|CS0    ; |Lab6_A_RSR|CS0    ; out              ;
+; |Lab6_A_RSR|RE_L   ; |Lab6_A_RSR|RE_L   ; out              ;
+; |Lab6_A_RSR|CLK    ; |Lab6_A_RSR|CLK    ; pin_out          ;
+; |Lab6_A_RSR|inst10 ; |Lab6_A_RSR|inst10 ; out0             ;
+; |Lab6_A_RSR|WE_L   ; |Lab6_A_RSR|WE_L   ; out              ;
++--------------------+--------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------+
+; Missing 0-Value Coverage                                   ;
++--------------------+--------------------+------------------+
+; Node Name          ; Output Port Name   ; Output Port Type ;
++--------------------+--------------------+------------------+
+; |Lab6_A_RSR|CS1    ; |Lab6_A_RSR|CS1    ; out              ;
+; |Lab6_A_RSR|OE_L   ; |Lab6_A_RSR|OE_L   ; pin_out          ;
+; |Lab6_A_RSR|inst17 ; |Lab6_A_RSR|inst17 ; out0             ;
+; |Lab6_A_RSR|CS0    ; |Lab6_A_RSR|CS0    ; out              ;
+; |Lab6_A_RSR|RE_L   ; |Lab6_A_RSR|RE_L   ; out              ;
+; |Lab6_A_RSR|CLK    ; |Lab6_A_RSR|CLK    ; pin_out          ;
+; |Lab6_A_RSR|inst10 ; |Lab6_A_RSR|inst10 ; out0             ;
+; |Lab6_A_RSR|WE_L   ; |Lab6_A_RSR|WE_L   ; out              ;
++--------------------+--------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+    Info: Processing started: Sun Jul 12 16:54:21 2015
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off Lab6_A_RSR -c Lab6_A_RSR
+Info: Using vector source file "C:/Users/stefano92/Desktop/Stefano/UF shit/Summer2015/eel4744/Labs/Lab6/PartA/Lab6_A_RSR.vwf"
+Info: Overwriting simulation input file with simulation results
+    Info: A backup of Lab6_A_RSR.vwf called Lab6_A_RSR.sim_ori.vwf has been created in the db folder
+Warning: Can't find signal in vector source file for input pin "|Lab6_A_RSR|CS0"
+Warning: Can't find signal in vector source file for input pin "|Lab6_A_RSR|RE_L"
+Warning: Can't find signal in vector source file for input pin "|Lab6_A_RSR|WE_L"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      66.67 %
+Info: Number of transitions in simulation is 643
+Info: Vector file Lab6_A_RSR.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II Simulator was successful. 0 errors, 3 warnings
+    Info: Peak virtual memory: 144 megabytes
+    Info: Processing ended: Sun Jul 12 16:54:22 2015
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:00
+
+

@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.1.57</VERSION>
+ <DEVICE>"ATxmega128A1U"</DEVICE>
+ <WORKING_DIR>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\ATxmega128A1Udef.inc</FILE>
+  <FILE>C:\Program Files (x86)\Atmel\Atmel Toolchain\AVR Assembler\Native\2.1.1175\avrassembler\Include\atxmega128a1udef.inc</FILE>
+  <FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\EBI_STUFF.asm</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Debug/Lab5_quiz.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Lab5_quiz.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Lab5_quiz.map</FILE>
+  <FILE>Lab5_quiz.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <MAIN><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>19</LINE></MAIN>
+  <INIT_USART><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>81</LINE></INIT_USART>
+  <INIT_GPIO><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>105</LINE></INIT_GPIO>
+  <LOOP><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>32</LINE></LOOP>
+  <IN_CHAR><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>38</LINE></IN_CHAR>
+  <OUT_CHAR><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>51</LINE></OUT_CHAR>
+  <RX_POLL><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>40</LINE></RX_POLL>
+  <TX_POLL><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>55</LINE></TX_POLL>
+  <NOTIT><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>73</LINE></NOTIT>
+  <LOWS><FILE>C:\Users\stefano92\Desktop\Stefano\UF shit\Summer2015\eel4744\Labs\Lab5\Quiz\Lab5_quiz\Lab5_quiz\Lab5_quiz.asm</FILE><LINE>67</LINE></LOWS>
+ </LABELS>
+</ASSEMBLER_INFO>

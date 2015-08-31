@@ -1,0 +1,37 @@
+|Lab6_A_RSR
+CE_L <= inst18.DB_MAX_OUTPUT_PORT_TYPE
+CS1 => inst18.IN0
+CS1 => BAND5:inst12.IN1
+A15 => inst6.IN0
+A15 => inst4.IN0
+A15 => BAND5:inst12.IN2
+A14 => inst9.IN0
+A14 => inst1.IN0
+A14 => inst2.IN0
+A14 => BAND5:inst12.IN3
+A12 => inst8.IN0
+A12 => inst.IN2
+A12 => inst13.IN1
+A13 => inst8.IN1
+A13 => inst.IN1
+A13 => inst13.IN0
+OE_L <= inst17.DB_MAX_OUTPUT_PORT_TYPE
+CS0 => inst17.IN0
+CS0 => inst10.IN1
+RE_L => inst17.IN1
+RE_L => inst11.IN1
+CLK <= inst10.DB_MAX_OUTPUT_PORT_TYPE
+WE_L => inst10.IN0
+WE_L => inst11.IN0
+E_LCD <= BAND5:inst12.OUT
+
+
+|Lab6_A_RSR|BAND5:inst12
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN3 => 1.IN0
+IN4 => 1.IN1
+IN5 => 1.IN2
+IN2 => 1.IN4
+IN1 => 1.IN5
+
+
